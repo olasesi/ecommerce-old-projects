@@ -68,10 +68,3 @@ if(mysqli_num_rows($select_products3) > 0){
 												echo '<h4 class="text-center">No result found</h4>';
 												
 											}
-
-												
-											
-?>
-
-
-    

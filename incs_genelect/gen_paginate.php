@@ -90,6 +90,3 @@ function pagination($query,$per_page=10,$page=1,$url='?'){
      
     return $pagination;
 }
-
-
-?>

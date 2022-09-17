@@ -61,7 +61,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `type`, `firstname`, `lastname`, `email`, `active`, `password`, `cookie_sessions`) VALUES
-(1, 'admin', 'Electronics', 'Mobile Masters USA', 'denispama1980@gmail.com', 1, '7.9%,A2?=1', '9ae35789502c4e12e0420256718af35e');
+(1, 'admin', 'Electronics', 'Mobile Masters USA', 'test@test.com', 1, '12345', '');
 
 --
 -- Indexes for dumped tables

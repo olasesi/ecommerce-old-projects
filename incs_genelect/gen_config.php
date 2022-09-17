@@ -3,8 +3,8 @@ date_default_timezone_set('UTC');
 session_start();
 
 
-define ('GEN_WEBSITE', 'http://localhost/ecommerce-old-projects/ecommerce');	//http://www.electronicsmobilemasterusa.com
-	
+define ('GEN_WEBSITE', '/');	//http://www.electronicsmobilemasterusa.com
+
 
 
 	define("Conn_error","could not connect to server at this time"); // all of the rest below may be defined later
@@ -16,13 +16,7 @@ define ('GEN_WEBSITE', 'http://localhost/ecommerce-old-projects/ecommerce');	//h
 	
 	//connecting to server
 	$connect=mysqli_connect("localhost","root","","gen_shopelect");
-	
-
+	//localhost
+	//root
+	//gen_shopelect
 	$data_select=mysqli_select_db($connect,"gen_shopelect") or die(db_conn_error);		//maximum execution time exceeded on this line
-	
-	
-
-	
-	
-	
-?>
