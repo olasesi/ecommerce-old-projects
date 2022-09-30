@@ -21,4 +21,3 @@ if(isset($_COOKIE['remember_me'])){
 
 }
 }
-?>

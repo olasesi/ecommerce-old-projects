@@ -16,5 +16,3 @@ setcookie("remember_me", "", time() - 31104000);		//I think i made the cookie se
 	
 header("Location:".GEN_WEBSITE);
 exit();
-
-?>
