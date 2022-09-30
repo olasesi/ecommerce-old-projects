@@ -15,7 +15,7 @@ define ('GEN_WEBSITE', '/');	//http://www.electronicsmobilemasterusa.com
 							");
 	
 	//connecting to server
-	$connect=mysqli_connect("localhost","root","","gen_shopelect");
+	$connect=mysqli_connect("localhost","root","","gen_shopelect");		//1wT%qw..E5
 	//localhost
 	//root
 	//gen_shopelect
